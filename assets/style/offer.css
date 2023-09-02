@@ -1,0 +1,89 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  padding: 90px 150px;
+  background: #e3f1f2;
+}
+.offer-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.offer-head h2 {
+  font-family: "Lora", sans-serif;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 68px;
+  color: #1b2221;
+}
+.offer-head p {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #1b2221;
+}
+
+.offer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 0;
+  
+}
+.offer-section .offer-section-left {
+  display: flex;
+  gap: 26px;
+}
+.offer-section .offer-section-left .offer-cards-column {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.offer-section-left .offer-cards-column .offer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 10px 15px;
+  width: 296px;
+  height: 280px;
+  border-radius: 30px;
+  background: #fff;
+}
+.offer-section-left .offer-cards-column .offer-card i {
+  background: #f57170;
+  color: #fff;
+  border-radius: 14px;
+  font-size: 1.4rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer-section-left .offer-cards-column .offer-card h5 {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #1b2221;
+}
+.offer-section-left .offer-cards-column .offer-card p {
+  font-family: "Mulish", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: #939393;
+}
+
+.offer-section-right img{
+    background:#d3eaeb;
+    border-radius: 50%;
+    width: 465px;
+    height: 465px;
+    object-fit:scale-down;
+    object-position:  50% 25px;
+}

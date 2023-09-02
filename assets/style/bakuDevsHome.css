@@ -1,0 +1,38 @@
+
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 150px;
+  overflow: hidden;
+}
+.home-page .home-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  width: 514px;
+}
+.home-page .home-left h2 {
+  font-family: "Lora";
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 68px;
+}
+.home-page .home-left h2 span {
+  color: #f5af15;
+}
+.home-page .home-left a {
+  border-radius: 70px;
+  text-decoration: none;
+  padding: 15px 45px;
+  background: #008d96;
+  color: #fff;
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-home {
+  background-image: url("../img/Vector1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100% !important;
+}
+.main-home .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 45px 150px;
+  box-sizing: border-box;
+}
+
+.main-home .navbar .navbar-kurslar i {
+  color: #1b2221;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-home .navbar .navbar-kurslar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-home .navbar .navbar-kurslar a {
+  color: #1b2221;
+  font-family: "Mulish", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.main-home .navbar .navbar-istek-siyahisi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.main-home .navbar .navbar-istek-siyahisi i {
+  color: #008d96;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-home .navbar .navbar-istek-siyahisi a {
+  color: #008d96;
+  font-family: "Mulish";
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.main-home .navbar .navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-home .navbar .navbar-links .daxil-ol {
+  border-radius: 40px;
+  padding: 13px 23px;
+  border: 1px solid #008d96;
+  text-decoration: none;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #008d96;
+  flex-shrink: 0;
+}
+.main-home .navbar .navbar-links .qeydiyyat {
+  padding: 12.5px 31.4px;
+  border-radius: 40px;
+  background: #008d96;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  flex-shrink: 0;
+}

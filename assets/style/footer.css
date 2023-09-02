@@ -1,0 +1,135 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 0 150px;
+  background: #008690;
+}
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  width: 1142px;
+}
+
+.footer-links-boxes {
+  padding: 76px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-web-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-web-logo  img{
+    width: 170px;
+}
+
+.footer-web-logo  p{
+    width: 260px;
+    font-family: "Mulish",sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-position {
+  display: flex;
+}
+.footer-position ul,
+.footer-links ul {
+    
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.footer-position ul li,
+.footer-links ul li {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #fff;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-form{
+display: flex;
+flex-direction: column;
+    gap: 41px;
+}
+
+.footer-form h2{
+    font-family: "Mulish";
+    font-size: 20px;
+    line-height: 25px;    
+    font-weight: 500;
+    color: #fff;
+    
+}
+.footer-form-input{
+    display: flex;
+}
+.footer-form-input input{
+    width: 300px;
+    height: 50px;
+border-radius: 60px 0 0 60px;
+padding-left: 30px;
+border: 1px;
+font-family: "Mulish",sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 23px;
+color: #c4c4c4;
+outline: none;
+border: 1px solid #008D9680;
+border-right: 0;
+
+}
+.footer-form-input i{
+    width: 100px;
+height: 50px;
+border-radius: 0 60px 60px 0;
+background: #F5AF15;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-size: 2rem;
+
+
+}
+
+/* ********************* */
+.footer-copyright {
+  padding: 21px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright span {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #fff;
+}
