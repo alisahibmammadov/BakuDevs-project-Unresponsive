@@ -66,6 +66,14 @@ color: #fff;
   line-height: 25px;
   color: #fff;
 }
+.footer-links ul li a{
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #fff;
+  text-decoration: none;
+}
 
 .footer-links ul {
   display: flex;

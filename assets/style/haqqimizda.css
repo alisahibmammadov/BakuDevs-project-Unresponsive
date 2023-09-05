@@ -1,0 +1,48 @@
+
+
+.haqqimizda-head {
+  max-width: 100vw;
+  height: 150px;
+  background-image: url("../img/kurslarbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-bottom: 40px; */
+}
+.haqqimizda-bg {
+  background: #008d96;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.haqqimizda-bg-main h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.haqqimizda-bg-main > div {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.haqqimizda-bg-main > div a {
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+.haqqimizda-bg-main > div ul li {
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #fff;
+}
