@@ -1,5 +1,3 @@
-
-
 .haqqimizda-head {
   max-width: 100vw;
   height: 150px;
@@ -45,4 +43,42 @@
   font-weight: 500;
   line-height: 18px;
   color: #fff;
+}
+
+.main-about-page {
+  padding: 90px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-about-page .left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.main-about-page .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+}
+.main-about-page .right h5 {
+    width: 18ch;
+    color: #1B2221;
+font-family: Lora;
+font-size: 41px;
+font-style: normal;
+font-weight: 600;
+line-height: 50px; /* 121.951% */
+}
+.main-about-page .right p {
+  color: #939393;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 553px;
+  height: 282px;
+  flex-shrink: 0;
 }

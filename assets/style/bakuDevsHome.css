@@ -1,4 +1,6 @@
-
+*{
+  font-family: sans-serif;
+}
 .home-page {
   display: flex;
   align-items: center;

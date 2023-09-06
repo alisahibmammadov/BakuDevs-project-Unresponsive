@@ -1,0 +1,203 @@
+.elaqe-head {
+  max-width: 100vw;
+  height: 150px;
+  background-image: url("../img/kurslarbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-bottom: 40px; */
+}
+.elaqe-bg {
+  background: #008d96;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.elaqe-bg-main h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.elaqe-bg-main > div {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.elaqe-bg-main > div a {
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+.elaqe-bg-main > div ul li {
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #fff;
+}
+
+.elaqe-usullari-page {
+  padding: 90px 150px;
+}
+.elaqe-card-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.elaqe-card-boxes div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 30px;
+  border: 1px solid #f4d2b8;
+  background: #f9f5ee;
+  width: 271px;
+  height: 254px;
+  flex-shrink: 0;
+}
+.elaqe-card-boxes div > i {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #f5af15;
+  box-shadow: 0px 3px 4px 0px rgba(82, 58, 4, 0.12);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.elaqe-card-boxes div > h5 {
+  color: #1b2221;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.elaqe-card-boxes div > p {
+  color: #939393;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.elaqe-card-boxes div > .sosial-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.elaqe-card-boxes div > .sosial-icons i {
+  border-radius: 4px;
+  border: 1px solid #939393;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.elaqe-form-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 150px;
+  gap: 30px;
+  background: #e3f1f2;
+}
+.form-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-head h3 {
+  color: #1b2221;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px; /* 158.333% */
+}
+.form-head p {
+  color: #939393;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.elaqe-form-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.elaqe-form-page form a {
+  width: 198px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 70px;
+  background: #008d96;
+  box-shadow: 0px 10px 30px 0px rgba(1, 94, 100, 0.15);
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.elaqe-form-page form .form-page {
+  display: flex;
+  gap: 20px;
+}
+.elaqe-form-page form .form-page .form-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.elaqe-form-page form .form-page .form-input input {
+  width: 400px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #dfdbdb;
+  background: #f6f6f7;
+  outline: none;
+  padding-left: 20px;
+}
+
+.form-text-area textarea {
+  resize: none;
+  width: 400px;
+  height: 210px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #dfdbdb;
+  background: #f6f6f7;
+  outline: none;
+  padding: 20px;
+}

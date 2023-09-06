@@ -1,0 +1,242 @@
+.daxilol-page {
+  padding: 0 150px;
+  display: flex;
+  justify-content: center;
+}
+.daxil-ol-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
+  gap: 50px;
+}
+.daxil-ol-main h3 {
+  color: #1b2221;
+  text-align: center;
+  font-family: "Lora", sans-serif;
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.daxil-ol-form {
+  width: 519px;
+  height: 688px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 30px 60px 0px rgba(1, 94, 100, 0.1);
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Form Fb Start */
+.daxil-ol-form .form-fb {
+  display: flex;
+}
+.daxil-ol-form .form-fb i {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 8px 0px 0px 8px;
+  background: #395185;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.daxil-ol-form .form-fb input {
+  width: 359px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 0 8px 8px 0;
+  background: #f6f6f7;
+  outline: none;
+  border: transparent;
+  padding-left: 10px;
+  color: #939393;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Form Fb End  */
+/* Form Google Start */
+.daxil-ol-form .form-google {
+  display: flex;
+}
+.daxil-ol-form .form-google i {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 8px 0px 0px 8px;
+  background: #e93e32;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.daxil-ol-form .form-google input {
+  width: 359px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 0 8px 8px 0;
+  background: #f6f6f7;
+  outline: none;
+  border: transparent;
+  padding-left: 10px;
+  color: #939393;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Form Google End */
+
+/* Form Email Start */
+.daxil-ol-form .form-email {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.daxil-ol-form .form-email label {
+  color: #1b2221;
+  font-family: Mulish, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.daxil-ol-form .form-email > input {
+  width: 419px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #f6f6f7;
+  color: #939393;
+  font-family: Mulish, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 10px;
+  outline: none;
+  border: transparent;
+}
+/* Form Email End */
+
+/* Form Sifre Start */
+.daxil-ol-form .form-sifre {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.daxil-ol-form .form-sifre label {
+  color: #1b2221;
+  font-family: Mulish, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.daxil-ol-form .form-sifre > input {
+  width: 419px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #f6f6f7;
+  color: #939393;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 10px;
+  outline: none;
+  border: transparent;
+}
+/* Form Sifre End */
+
+/* Form CheckBox Start */
+.daxil-ol-form .form-checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.daxil-ol-form .form-checkbox a {
+  color: #1b2221;
+  text-align: right;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+.daxil-ol-form .form-checkbox nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.daxil-ol-form .form-checkbox nav input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.daxil-ol-form .form-checkbox nav label {
+  color: #939393;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex-shrink: 0;
+}
+/* Form Checkbox End */
+
+/* formlink start */
+.daxil-ol-form .form-link > a {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 20px;
+
+  width: 198px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 70px;
+  background: #008d96;
+  box-shadow: 0px 10px 30px 0px rgba(1, 94, 100, 0.15);
+}
+/* formlink end */
+
+/* Bottom Start */
+.daxil-ol-form .form-bottom-links {
+  display: flex;
+  gap: 20px;
+}
+.daxil-ol-form .form-bottom-links .sual {
+  color: #939393;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+.daxil-ol-form .form-bottom-links .qeydiyyat {
+  color: #008d96;
+  text-align: right;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+/* Bottom end */
